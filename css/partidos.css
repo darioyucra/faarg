@@ -1,0 +1,102 @@
+@media screen and (min-width:120px){
+    .tablaPartidos{
+        width: 100%;
+        /* background: red; */
+        border-radius: 0 0 4px 4px;
+        margin-bottom: 20px;
+        /* display: none; */
+    }
+    .encabezadoTablaPartidos{
+        background-color: #2A416A;
+        height: 60px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Montserrat';
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+    }
+    .encabezadoTablaPartidos h2{
+        font-size: 16px;
+    }
+    .encabezadoTablaPartidos button{
+        background-color: #9390A5;
+        border: none;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+        height: 25px;
+        width: 80px;
+        display: none;
+    }
+    .contenidoTablaPartidos{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .contenidoVisitante{
+        border-bottom: 1px solid #ccc;
+    }
+    .contenidoLocal{
+        border-radius: 0 0 4px 4px;
+    }
+    .nombreYLogoPartido{
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .nombreYLogoPartido img{
+        width: 40%;
+        /* height: 70px; */
+        display: block;
+    }
+    .nombreYPuntosPartido{
+        font-family: 'Montserrat';
+    }
+    .nombreYPuntosPartido h3{
+        color: #3F3F3F;
+        font-size: 12px;
+        text-transform: uppercase;
+        /* font-family: 'Montserrat'; */
+    }
+    .nombreYPuntosPartido span{
+        color: #9A9DA2;
+        font-size: 10px;
+    }
+    .resultadoPartido{
+        width: 20%;
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .numeroResultadoPartido{
+        font-size: 30px;
+        font-family: 'Montserrat';
+        color: #3F3F3F;
+        font-weight: 600;
+    }
+    .flechaPActivo{
+        color: #38A9FF;
+    }
+    .flechaPInactivo{
+        opacity: 0;
+    }
+    .flechaPartido{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:1024px){
+    .tablaPartidos{
+        max-width: 300px;
+    }
+}

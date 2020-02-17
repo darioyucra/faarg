@@ -1,0 +1,305 @@
+@media screen and (min-width:120px){
+
+    #principal{
+        position: relative;
+    }
+    .ventanaModalImg{
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modalInactiva{
+        z-index: -1;
+    }
+    .modalActiva{
+        z-index: 100;
+    }
+    .contenidoModal{
+        width: 95%;
+        /* background-color: red; */
+        position: absolute;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 360px;
+    }
+    .ventanaModalImg img{
+        width: 90%;
+        max-width: 360px;
+        display: block;
+    }
+    #btnModalIzq{
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        background-color: #38A9FF;
+        color: #fff;
+        border: none;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+        
+    }
+    #btnModalDer{
+        position: absolute;
+        bottom: 0;
+        right: 35%;
+        background-color: #38A9FF;
+        color: #fff;
+        border: none;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+        
+    }
+    #cerrarModal{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: #fff;
+        color: #1E2024;
+        font-size: 16px;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        cursor:pointer;
+    }
+
+    .contenedorFotosIndividual{
+        /* background: red; */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 420px;
+    
+    }
+    .encabezadoFotosIndividual{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .encabezadoFotosIndividual h2{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .encabezadoFotosIndividual p{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .encabezadoFotosIndividual a{
+        text-align: center;
+        font-family: 'Montserrat';
+        text-decoration: none;
+        background-color: #1E2024;
+        color: #fff;
+        transition-duration: 0.3s;
+        font-weight: 600;
+        height: 24px;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .encabezadoFotosIndividual a:hover{
+        background-color: #38A9FF;
+    }
+    .fotosIndividualGaleria{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .contenedorImgIndividual{
+        display: flex;
+        flex-wrap: wrap;
+        width: 48%;
+        height: 17vh;
+        background-image: url('../imagenes/galeriaMayores.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 10px;
+    }
+    .contenedorImgIndividual button{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #38A9FF;
+        font-size: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        transition-duration: 0.3s;
+        border: none;
+        cursor: pointer;
+    }
+    .contenedorImgIndividual button:hover{
+        opacity: 1;
+        font-size: 18px;
+    }
+    .contenedorVideo{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .contenedorVideo iframe{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+
+
+    .ventanaModalImg{
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* display: none; */
+    }
+    .modalInactiva{
+        z-index: -1;
+    }
+    .modalActiva{
+        z-index: 100;
+    }
+    .contenidoModal{
+        max-width: 700px;
+        height: 600px;
+    }
+    .ventanaModalImg  img{
+        width: 90%;
+        max-width: 700px;
+        display: block;
+        /* display: none; */
+    }
+    #btnModalIzq{
+        position: absolute;
+        bottom: 50%;
+        left: -5%;
+        background-color: #38A9FF;
+        color: #fff;
+        border: none;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+        
+    }
+    #btnModalDer{
+        position: absolute;
+        bottom: 50%;
+        right: -5%;
+        background-color: #38A9FF;
+        color: #fff;
+        border: none;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+        
+    }
+    #cerrarModal{
+        position: absolute;
+        top: 18%;
+        right: 10%;
+        left: auto;
+        transform: translate(0%, 0%);
+        background-color: #fff;
+        color: #1E2024;
+        font-size: 16px;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        cursor:pointer;
+    }
+
+
+
+
+
+
+    .encabezadoFotosIndividual h2{
+        font-size: 24px;
+    }
+    .contenedorFotosIndividual{
+        max-width: 1000px;
+    }
+    .contenedorImgIndividual{
+        width: 32%;
+        margin-bottom: 20px;
+        height: 240px;
+    }
+    .encabezadoFotosIndividual a{
+        height: 34px;
+    }
+    .contenedorImgIndividual button:hover{
+        font-size: 28px;
+    }
+
+    .contenedorVideo{
+        height: auto;
+    }
+    .contenedorVideo iframe{
+        width: 100%;
+        height: 500px;
+    }
+}

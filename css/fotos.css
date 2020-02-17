@@ -1,0 +1,121 @@
+/*ESTILOS PARA MODIFICAR EL PLUGIN*/
+#bwg_container1_0{
+    width: 100%;
+    margin: 0;
+}
+.bwg-ecommerce1, .bwg-title1{
+    height: 50px;
+    background-color: #003B75;
+    box-sizing: border-box;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div[id^="bwg_container"].bwg_container a{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid #38A9FF;
+    border-radius: 4px;
+}
+#bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-album-thumbnails .bwg-title2{
+    color: #fff!important;
+    font-size: 16px!important;
+    font-family: 'Montserrat'!important;
+    text-align: left;
+}
+@media screen and (min-width:120px){
+    .contenedorFotosPrincipal{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 380px;
+        /* background: red; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bloqueFotos{
+        /* background: blue; */
+        width: 100%;
+        height: 280px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #38A9FF;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .encabezadoBloqueFotos{
+        width: 100%;
+        background: #003B75;
+        height: 75px;
+        font-family: 'Montserrat';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .encabezadoBloqueFotos h3{
+        color: #fff;
+        font-size: 16px;
+    }
+    .encabezadoBloqueFotos p{
+        color: #fff;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .contenedorImagenFotos{
+        background: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .imagenGMayores{
+        background-image: url('../imagenes/galeriaMayores.jpg');
+    }
+    .imagenGFlag{
+        background-image: url('../imagenes/galeriaFlag.jpg');
+    }
+    .imagenGSeleccion{
+        background-image: url('../imagenes/galeriaSeleccion.jpg');
+    }
+    .imagenGJuvenil{
+        background-image: url('../imagenes/galeriaJuvenil.jpg');
+    }
+    .contenedorImagenFotos a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-decoration: none;
+        color: #38A9FF;
+        font-size: 0;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    .contenedorImagenFotos a:hover{
+        opacity: 1;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .contenedorFotosPrincipal{
+        max-width: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .bloqueFotos{
+        width: 32%;
+        height: 323px;
+    }
+}

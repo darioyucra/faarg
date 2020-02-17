@@ -1,0 +1,148 @@
+@media screen and (min-width:120px){
+
+
+
+   .submenuSection2{
+       background-color: rgb(49, 49, 49);
+   }
+   .submenuSection2 nav ul li{
+       border-left: 3px solid rgb(49, 49, 49);
+   }
+    .contenedorTablaPrincipal{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        padding: 20px 0;
+        max-width: 300px;
+    }
+    .tablaJugadores{
+        width: 100%;
+        background: #fff;
+        border-radius: 0 0 4px 4px;
+        margin-bottom: 20px;
+    }
+    .encabezadoTablaEstadisticas{
+        background-color: #2A416A;
+        height: 60px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Montserrat';
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+    }
+    .encabezadoTablaEstadisticas h2{
+        font-size: 16px;
+    }
+    .encabezadoTablaEstadisticas button{
+        background-color: #9390A5;
+        border: none;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+        height: 25px;
+        width: 80px;
+    }
+    .contenidoTablaEstadisticas{
+        width: 100%;
+    }
+    .primerLineaTablaJugadores{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ccc;
+        /* border-left: 1px solid #ccc; */
+        /* border-right: #ccc; */
+    }
+    .numero{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        /* background: reD; */
+        font-size: 12px;
+        font-family: 'Montserrat';
+    }
+    .nombre{
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 12px;
+        align-items: center;
+        font-family: 'Montserrat';
+    }
+    .nombre img{
+        max-width: 20px;
+        margin-right: 10px;
+    }
+    .equipo{
+        width: 20%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 12px;
+        font-family: 'Montserrat';
+    }
+    .t{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-family: 'Montserrat';
+    }
+    .td{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-family: 'Montserrat';
+    }
+    .qbr{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-family: 'Montserrat';
+    }
+
+    .lineaTablaJugadores{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        height: 40px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .contenedorTablaPrincipal{
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+    .tablaJugadores{
+        max-width: 350px;
+        width: 30%;
+        /* max-height: 331px; */
+        /* overflow: hidden; */
+    }
+    .subMenuSection nav ul li{
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,266 @@
+@media screen and (min-width:120px){
+    .tablaPrincipal{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+        /* background-color: #fff; */
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tPosiciones{
+        width: 100%;
+        background-color: #fff;
+    }
+    .encabezadoTabla{
+        width: 100%;
+        background-color: #2A416A;
+        box-sizing: border-box;
+        padding: 15px 5px;
+        color: #fff;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 4px;
+    }
+    .contenidoPosiciones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .lineaAtributos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lineaAtributos:hover{
+        background-color: #ccc;
+    }
+    .lineaAtributos div h3{
+        font-size: 10px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        padding: 10px 5px;
+        /* text-align: center; */
+    }
+    .columna1, .columna3, .columna4, .columna5, .columna6, .columna7, .columna8, .columna9, .columna10{
+        width: 10%;
+        overflow: hidden;
+    }
+    .columna2{
+        width: 20%;
+    }
+    .columna2 span{
+        display: none;
+    }
+    .columna2 img{
+        width: 60%;
+        max-width: 35px;
+    }
+    .lineaAtributos div span{
+        font-size: 10px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        padding: 10px 5px;
+        /* text-align: center; */
+    }
+    .lineaAtributos > div{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        /* background: red; */
+    }
+
+
+
+
+    .tFechas{
+        margin-top: 40px;
+        background-color: #fff;
+    }
+    .tFechas .encabezadoTabla{
+        display: flex;
+        /* background: red; */
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tFechas .encabezadoTabla nav ul{
+        display: flex;
+        list-style: none;
+    }
+    .tFechas .encabezadoTabla nav ul li button{
+        font-family: 'Montserrat';
+        font-size: 10px;
+        border: none;
+        background-color: #9390A5;
+        color: #fff;
+        width: 55px;
+        margin-left: 5px;
+    }
+    .nombrePosicionesE{
+        display: none;
+    }
+    .contenidoFechas{
+        width: 100%;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        /* background: red; */
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+    .nombrePosicionesM{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-family: 'Montserrat';
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        /* height: 25px; */
+        height: 25px;
+    }
+    .fecha{
+        /* background-color: blue; */
+        width: 15%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .semana{
+        /* background-color: green; */
+        width: 15%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .local{
+        /* background-color: yellow; */
+        width: 17%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .local img{
+        max-width: 22px;
+    }
+    .puntos{
+        /* background-color: pink; */
+        width: 21%;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .visitante{
+        /* background-color: orange; */
+        width: 17%;
+        text-align: right;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .visitante img{
+        max-width: 22px;
+    }
+    .hora{
+        /* background-color: violet; */
+        width: 15%;
+        text-align: right;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .datosFechas{
+        width: 100%;
+        display: flex;
+        font-family: 'Montserrat';
+        font-size: 10px;
+        font-weight: 400;
+        height: 25px;
+    }
+    .numPuntos{
+        margin: 0 8px;
+        box-sizing: border-box;
+    }
+    .fInactivo{
+        opacity: 0;
+    }
+    .fActivado{
+        color: #F7E502;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .encabezadoTabla{
+        padding: 20px 30px;
+    }
+    div.lineaAtributos:nth-child(1){
+        height: 90px;
+    }
+    .lineaAtributos div h3{
+        font-size: 16px;
+    }
+    .lineaAtributos{
+        height: 70px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .lineaAtributos div span{
+        font-size: 16px;
+    }
+    .columna2 img{
+        max-width: 60px;
+    }
+    .lineaAtributos div span{
+        display: block;
+    }
+
+
+
+    .nombrePosicionesM{
+        display: none;
+    }
+    .nombrePosicionesE{
+        display: flex;
+        width: 100%;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 600;
+        height: 90px;
+    }
+    .datosFechas{
+        font-size: 16px;
+        height: 70px;
+        margin-bottom: 10px;
+        /* background: red; */
+        transition-duration: 0.3s;
+    }
+    .datosFechas:hover{
+        background-color: #ccc;
+    }
+    .local img{
+        max-width: 40px;
+        margin-right: 12px;
+    }
+    .visitante img{
+        max-width: 40px;
+        margin-left: 12px;
+    }
+
+
+    .tFechas .encabezadoTabla nav ul li button{
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+    }
+
+}

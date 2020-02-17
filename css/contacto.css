@@ -1,0 +1,178 @@
+@media screen and (min-width:120px){
+    .contactoPrincipal{
+        width: 100%;
+        min-height: 80vh;
+        padding: 3em 0;
+    }
+    .formularioContacto{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 524px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #fff;
+        border-radius: 6px;
+        /* border: 1px solid #38A9FF; */
+    }
+    .formularioContacto h3{
+        width: 100%;
+        padding: 27px 23px;
+        background-color: #2A416A;
+        color: #fff;
+        border-left: 6px solid #38A9FF;
+        border-radius: 6px;
+        font-family: 'Montserrat';
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+    .textFormulario{
+        width: 100%;
+        padding: 27px 23px;
+        box-sizing: border-box;
+    }
+    .textFormulario h4{
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 600;
+        color: #3F3F3F;
+        margin-bottom: 10px;
+    }
+    .textFormulario p{
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 400;
+        color: #3F3F3F;
+        margin-bottom: 18px;
+    }
+    .textFormulario span{
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 400;
+        color: #3F3F3F;
+        margin-bottom: 18px;
+    }
+    .textFormulario span strong{
+        font-weight: 600;
+    }
+    .contenedorFormulario{
+        width: 100%;
+        padding: 27px 23px;
+        box-sizing: border-box;
+    }
+    .contenedorFormulario form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .campoFormulario{
+        width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .campoFormulario label{
+        width: 100%;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #3F3F3F;
+        margin-bottom: 6px;
+    }
+    .campoFormulario label span{
+        font-weight: 600;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        color: #38A9FF;
+    }
+    .campoFormulario input{
+        width: 100%;
+        padding: 14px 6px;
+        font-size: 12px;
+        border: 2px solid #2A416A;
+        /* background-color: rgba(42, 65, 106, 0.5); */
+        color: #3F3F3F;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        transition-duration: 0.5s;
+        box-sizing: border-box;
+    }
+    .campoFormulario input:focus{
+        background-color: rgba(42, 65, 106,0.5);
+        color: #fff;
+        border-color:#38A9FF;
+    }
+    .campoFormulario textarea{
+        width: 100%;
+        padding: 8px 2px;
+        font-size: 12px;
+        border: 2px solid #2A416A;
+        /* background-color: rgba(42, 65, 106, 0.5); */
+        color: #3F3F3F;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        transition-duration: 0.5s;
+        box-sizing: border-box;
+        resize: none;
+    }
+    .campoFormulario textarea:focus{
+        background-color: rgba(42, 65, 106,0.5);
+        color: #fff;
+        border-color:#38A9FF;
+    }
+    #btnEnviarContacto{
+        width: 100%;
+        font-weight: 14px;
+        text-transform: uppercase;
+        font-family: 'Montserrat';
+        background-color: #38A9FF;
+        padding: 14px 6px;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        color: #fff;
+        font-weight: 600;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    #btnEnviarContacto:hover{
+        background: rgb(26, 144, 235);
+    }
+}
+
+@media screen and (min-width:768px){
+    .formularioContacto{
+        max-width: 720px;
+    }
+    .contenedorFormulario form{
+        justify-content: space-between;
+    }
+    div.campoFormulario:nth-child(4){
+        width: 100%;
+    }
+    .campoFormulario{
+        width: 30%;
+    }
+    .campoFormulario input{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1200px){
+    .formularioContacto{
+        max-width: 1186px;
+        justify-content: space-between;
+        /* padding-top: 15px; */
+        padding-bottom: 15px;
+    }
+    .textFormulario{
+        width: 35%;
+        padding-top: 15px;
+    }
+    .contenedorFormulario{
+        width: 65%;
+        padding-top: 15px;
+    }
+}

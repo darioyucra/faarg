@@ -1,0 +1,939 @@
+@media screen and (min-width:120px){
+    .bannerSlider{
+        width: 100%;
+        background-color: #292C31;
+    }
+
+    .contenidoRoster{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        margin-top: 40px;
+        max-width: 360px;
+    }
+    .contenedorTablaRoster{
+        width: 100%;
+    }
+    .tablaRoster{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .encabezadoRoster{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #003B75;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        max-width: 360px;
+    }
+    .logoRoster{
+        width: 30%;
+        /* background: red; */
+        /* display: flex; */
+    }
+    .logoRoster img{
+        width: 100%;
+        max-width: 140px;
+        display: block;
+    }
+    .sp-data-table tr{
+        height: 70px;
+    }
+    .textEncabezadoRoster{
+        width: 70%;
+        font-family: 'Montserrat';
+        color: #fff;    
+    }
+    .textEncabezadoRoster h2{
+        font-size: 18px;
+    }
+    .textEncabezadoRoster span{
+        font-size: 14px;
+    }
+    .textEncabezadoRoster p{
+        font-size: 12px;
+    }
+    .textEncabezadoRoster p a{
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .redesEncabezadoRoster{
+        width: 40%;
+    }
+    .redesEncabezadoRoster nav ul{
+        display: flex;
+        list-style: none;
+        /* background: red; */
+        justify-content: center;
+        margin-left: auto;
+    }
+    .redesEncabezadoRoster nav ul li{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .redesEncabezadoRoster nav ul li a{
+        color: #fff;
+        font-size: 18px;
+        border: 2px solid #EAFA4A;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition-duration:0.3s;
+    }
+    .redesEncabezadoRoster nav ul li a:hover{
+        /* background-color: #EAFA4A; */
+        color: #EAFA4A;
+    }
+
+    .gridTabla{
+        /* background: red; */
+        width: 100%;
+        background: #fff;
+        border-left: 1px solid #003B75;
+        border-right: 1px solid #003B75;
+        border-bottom: 1px solid #003B75;
+        box-sizing: border-box;
+    }
+    .gridTabla .primerLineaE{
+        display: none;
+    }
+    .gridTabla .primerLineaM{
+        display: flex;
+    }
+    .gridTabla .primerLinea{
+        width: 100%;
+        /* display: flex; */
+        height: 30px;
+        /* border-left: 1px solid #003B75; */
+        /* border-right: 1px solid #003B75; */
+        /* border-bottom: 1px solid #003B75; */
+        box-sizing: border-box;
+    }
+    .n{
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .posicion{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .edad{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .altura{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .peso{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exp{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .primerLinea span{
+        font-family: 'Montserrat';
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #3F3F3F;
+    }
+
+    .lineaStaff{
+        height: 25px;
+        border-bottom: 1px solid #38A9FF;
+        border-top: 1px solid #38A9FF;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 6px;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #3F3F3F;
+        box-sizing: border-box;
+    }
+
+    .lineaTabla{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 30px;
+    }
+    .lineaTabla span{
+        font-size: 10px;
+        font-family: 'Montserat', sans-serif;
+
+    }
+    .foto img{
+        width: 100%;
+        max-width: 20px;
+    }
+
+    .lineaJugadores{
+        width: 100%;
+        display: flex;
+    }
+    .lineaTabla{
+        border-bottom: 1px solid #38A9FF;
+    }
+    div.lineaTabla:nth-child(6){
+        border-bottom: none;
+    }
+    div.lineaTabla:nth-child(43){
+        border-bottom: none;
+    }
+
+
+
+    /*ASIDE MOBILE*/
+    .asideRoster{
+        width: 100%;
+        /* background: red; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .estadisticasRoster{
+        width: 100%;
+    }
+     .encabezadoAsideRoster{
+        background-color: #003B75;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8px;
+        box-sizing: border-box;
+        height: 56px;
+        font-family: 'Montserrat';
+    }
+    .encabezadoAsideRoster h2{
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .encabezadoAsideRoster a{
+        background-color: #9390A5;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        height: 26px;
+        width: 89px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.3s;
+    }
+    .encabezadoAsideRoster a:hover{
+        color: #9390A5;
+        background-color: #fff;
+    }
+
+    .contenidoEstadisticasRoster{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background: #fff;
+    }
+    .columnaEstadisticasRoster{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        box-sizing: border-box;
+        border-right: 1px solid #38A9FF;
+        border-bottom: 1px solid #38A9FF;
+    }
+    div.columnaEstadisticasRoster:nth-child(1){
+        border-left: 1px solid #38A9FF;
+    }
+    div.columnaEstadisticasRoster:nth-child(5){
+        border-left: 1px solid #38A9FF;
+    }
+    .columnaEstadisticasRoster span{
+        text-align: center;
+        font-family: 'Montserrat';
+    }
+    .fila1EstRost{
+        font-size: 18px;
+        font-weight: 600;
+        color: #3F3F3F;
+    }
+    .fila2EstRost{
+        font-size: 8px;
+        font-weight: 400;
+        color: #9A9DA2;
+        margin-top: 6px;
+    }
+    .fila3EstRost{
+        font-size: 14px;
+        font-weight: 600;
+        color: #3F3F3F;
+        display: none;
+    }
+    #principal > div.contenidoRoster > section > article > div.gridTabla > div.sportspress.sp-widget-align-none{
+        /* display: none!important; */
+    }
+    #principal > div.contenidoRoster > section > article > div.gridTabla > div.sp-section-content.sp-section-content-content{
+        /* display: none!important; */
+    }
+    .sp-post-content .sp-template-player-list, .sp-post-content .sp-table-caption{
+        display: none!important;
+    }
+    .calendarioRoster{
+        margin-top: 20px;
+        border:1px solid #38A9FF;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    .fila1CalendarioRoster{
+        width: 100%;
+        display: flex;
+        height: 30px;
+        border-bottom: 1px solid #38A9FF;
+    }
+    .s{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contra{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .resultado{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fechaC{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .horaC{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fila1CalendarioRoster span{
+        font-family: 'Montserrat';
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .filaCalendarioRoster{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 30px;
+        font-family: 'Montserrat';
+        font-size: 11px;
+        border-bottom: 1px solid #38A9FF;
+    }
+    .contra img{
+        max-width: 30px;
+        margin-right: 4px;
+    }
+    .filaCalendarioRoster .s span{
+        color:#9A9DA2;
+    }
+    .filaCalendarioRoster .contra span{
+        color: #3F3F3F;
+        font-weight: 400;
+    }
+    .filaCalendarioRoster .resultado span{
+        color: #3F3F3F;
+    }
+    .filaCalendarioRoster .fechaC span{
+        color:#9A9DA2;
+    }
+    .filaCalendarioRoster .horaC span{
+        color: #9a9da2;
+    }
+    div.filaCalendarioRoster:nth-child(16){
+        border-bottom: none;
+    }
+
+    .ultimoPartidoRoster{
+        margin-top: 20px;
+        background-color: #fff;
+    }
+    .contenidoUltimoPartidoRoster{
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #38A9FF;
+        border-left: 1px solid #38A9FF;
+        border-right: 1px solid #38A9FF;
+        box-sizing: border-box;
+    }
+    .equipoRoster{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    .equipoRoster span{
+        text-align: center;
+    }
+    .equipoRoster img{
+        width: 100%;
+    }
+    .resultadoRoster{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .equipoRoster span{
+        font-family: 'Montserrat';
+        color: #9A9DA2;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .resultadoRoster .valorRR{
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 600;
+        color: #9A9DA2;
+    }
+    .valorRR strong{
+        font-weight: 600;
+        color: #38A9FF;
+    }
+    .flecha{
+        opacity: 0;
+        font-size: 18px;
+    }
+    .fActiva{
+        opacity: 1;
+        color: #F7E502;
+        font-size: 18px;
+    }
+    .primerLineaUP{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #D8D8D8;
+        height: 25px;
+        align-items: center;
+        border-bottom: 1px solid #38A9FF;
+        border-left: 1px solid #38A9FF;
+        border-right: 1px solid #38A9FF;
+        box-sizing: border-box;
+    }
+    .primerLineaUP span{
+        color: #3F3F3F;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .puntosR{
+        width: 30%;
+    }
+    .c1{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c2{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c3{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c4{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .f{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lineaUP{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        border-bottom: 1px solid #38A9FF;
+        border-left: 1px solid #38A9FF;
+        border-right: 1px solid #38A9FF;
+    }
+    .lineaUP span{
+        color: #9A9DA2;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        font-size: 14px;
+    }
+    
+
+    .trofeosRoster{
+        margin-top: 20px;
+        background-color: #fff;
+        border: 1px solid #38A9FF;
+        box-sizing: border-box;
+        display: none;
+    }
+    .contenidoTrofeosRoster{
+        position: relative;
+    }
+    .imagenesTrofeos{
+        position: relative;
+        /* background-color: blue; */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 360px;
+    }
+    .trofeo{
+        display: flex;
+        flex-direction: column;
+        /* background: red; */
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .trofeoInicialActivo{
+        z-index: 1;
+    }
+    .trofeoInicialInactivo{
+        z-index: -1;
+    }
+    .trofeoActivo{
+        z-index: 1;
+        animation: trofeoActivo 0.8s linear;
+    }
+    .trofeoInactivo{
+        z-index: -1;
+        animation: trofeoInactivo 0.3s linear;
+    }
+    @keyframes trofeoActivo{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+    @keyframes trofeoInactivo{
+        0%{opacity: 1; z-index: 1;}
+        100%{opacity: 0; z-index: 1;}
+    }
+    .trofeo img{
+        width: 240px;
+        height: 240px;
+    }
+    .trofeo h3{
+        text-align: center;
+        margin-top: 20px;
+        color: #3F3F3F;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .trofeo span{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #9A9DA2;
+    }
+
+
+    .botonera1AsideRoster{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    .botonera1AsideRoster ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .botonera1AsideRoster ul li button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 2px solid #9A9DA2;
+        color: #9A9DA2;
+    }
+    .botonera2AsideRoster{
+        width: 100%;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .botonera2AsideRoster ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    .botonera2AsideRoster ul li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .botonera2AsideRoster ul li button{
+        border: none;
+        border-radius: 50%;
+        color: #9A9DA2;
+    }
+    .botonera2AsideRoster ul .btnAsideActivo{
+        color: #38A9FF;
+    }
+    
+
+
+    .jugadoresRoster{
+        margin-top: 20px;
+        border:1px solid #38A9FF;
+        box-sizing: border-box;
+    }
+    .contenidoJugadoresroster{
+        width: 100%;
+    }
+    .tipoJugadores{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .tipoJugadores button{
+        margin-right: 20px;
+        border: none;
+        background: none;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #9A9DA2;
+    }
+    .tipoJugadores .tipoJugadorActivo{
+        color: #3F3F3F;
+    }
+
+    .linea1JugadoresAside{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5px;
+        box-sizing: border-box;
+        height: 35px;
+        /* background: reD; */
+    }
+    .linea1JugadoresAside .yardasAside span{
+        font-size: 14px;
+        color: #3F3F3F;
+    }
+    .yardasAside{
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #3F3F3F;
+        font-weight: 400;
+    }
+    .ydsAside{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #3F3F3F;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .tdAside{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #3F3F3F;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .qbrAside{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #3F3F3F;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+
+    .lineaJugadoresAside{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 0 5px;
+        box-sizing: border-box;
+        height: 50px;
+        border-top: 1px solid #38A9FF;
+        border-bottom: 1px solid #38A9FF;
+    }
+    .yardasAside{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .yardasAside img{
+        width: 30%;
+        max-width: 30px;
+    }
+    .lineaJugadoresAside .yardasAside span{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        color: #9A9DA2;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .yardasAside span strong{
+        font-weight: 400;
+        color: #3F3F3F;
+        font-size: 14px;
+    }
+    div.lineaJugadoresAside:nth-child(7){
+        border-bottom: none;
+    }
+    .contenidoJugadoresRoster{
+        background-color: #fff;
+    }
+}
+@media screen and (min-width:1024px){
+    .contenidoRoster{
+        max-width: 1170px;
+        /* background: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+
+    .contenedorTablaRoster{
+        width: 68%;
+    }
+    .tablaRoster{
+        max-width: 100%;
+    }
+    .encabezadoRoster{
+        max-width: 100%;
+        justify-content: center;
+    }
+    .logoRoster{
+        max-width: 180px;
+    }
+    .textEncabezadoRoster{
+        width: 40%;
+    }
+    .textEncabezadoRoster h2{
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+    .redesEncabezadoRoster{
+        width: 20%;
+        /* background: red; */
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .redesEncabezadoRoster nav{
+        width: 100%;
+    }
+    .redesEncabezadoRoster nav ul{
+        /* flex-direction: column; */
+        align-items:center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .redesEncabezadoRoster nav ul li{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .redesEncabezadoRoster nav ul li a{
+        font-size: 22px;
+    }
+    .asideRoster{
+        margin-top: 0;
+    }
+
+    .gridTabla .primerLineaM{
+        display: none;
+    }
+    .gridTabla .primerLineaE{
+        display: flex;
+        height: 52px;
+    }
+    .primerLinea span{
+        font-size: 12px;
+    }
+    .lineaStaff{
+        height: 52px;
+    }
+    .lineaStaff{
+        font-weight: 600;
+    }
+    .lineaTabla{
+        height: 70px;
+    }
+    .lineaTabla span{
+        font-size: 12px;
+        font-weight: 400;
+        color: #9A9DA2;
+    }
+    .foto img{
+        max-width: 60px;
+    }
+
+
+    .asideRoster{
+        width: 30%;
+    }
+    .columnaEstadisticasRoster{
+        width: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .fila1EstRost{
+        font-size: 36px;
+    }
+    .fila2EstRost{
+        font-size: 10px;
+    }
+    .fila3EstRost{
+        font-size: 24px;
+    }
+    div.columnaEstadisticasRoster:nth-child(3){
+        border-left: 1px solid #38A9FF;
+    }
+    div.columnaEstadisticasRoster:nth-child(7){
+        border-left: 1px solid #38A9FF;
+    }
+    .estadisticasRoster > div:nth-child(1){
+        border-top: 1px solid #38A9FF;
+        border-left: 1px solid #38A9FF;
+        border-right: 1px solid #38A9FF;
+    }
+
+
+
+    .fila1CalendarioRoster{
+        height: 40px;
+    }
+    .fila1CalendarioRoster span{
+        font-size: 12px;
+    }
+    .filaCalendarioRoster{
+        height: 50px;
+        font-size: 12px;
+    }
+
+
+    .primerLineaUP{
+        height: 40px;
+    }
+    .lineaUP{
+        height: 40px;
+    }
+    .linea1JugadoresAside{
+        height: 40px;
+    }
+    .lineaJugadoresAside{
+        height: 60px;
+    }
+    .encabezadoAsideRoster{
+        height: 80px;
+    }
+}
