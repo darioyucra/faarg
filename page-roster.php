@@ -515,6 +515,7 @@
     var validarCorsarios = textReferencia.indexOf("Corsarios");
     var validarJabalies = textReferencia.indexOf("Jabalies");
     var validarLegionarios = textReferencia.indexOf("Legionarios");
+    var validarAztecas = textReferencia.indexOf("Aztecas");
     var validarEstadisticas1 = textReferencia.indexOf("Estadísticas");
     var validarEstadisticas2 = textReferencia.indexOf("Estadisticas"); 
 
