@@ -306,9 +306,9 @@
                 </ul>
                 <ul class="columnaLogos logosInactivo" id="columnaLogo3">
                     <!-- <li><a href="#"><img src="/imagenes/escudos/yacares.png" alt=""></a></li> -->
-                    <li><a href="http://localhost/faarg/index.php/roster-osos-polares-2019/"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/AZT.png" alt=""></a></li>
-                    <li><a href="http://localhost/faarg/index.php/roster-osos-polares-2019/"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/YAC.png" alt=""></a></li>
-                    <li><a href="http://localhost/faarg/index.php/roster-osos-polares-2019/"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/COY.png" alt=""></a></li>
+                    <li><a href="http://faarg.arlud.com/?sp_list=roster-aztecas-2020"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/AZT.png" alt=""></a></li>
+                    <li><a href="http://faarg.arlud.com/?sp_list=roster-yacares-2020"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/YAC.png" alt=""></a></li>
+                    <li><a href="http://faarg.arlud.com/?sp_list=roster-coyotes-2020"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/COY.png" alt=""></a></li>
                 </ul>  
                 <!--<ul class="columnaLogos logosInactivo" id="columnaLogo4">
                     <li><a href="#"><img src="/imagenes/escudos/corsarios.png" alt=""></a></li>
