@@ -28,9 +28,9 @@
                 </ul>
                 <ul class="columnaLogos logosInactivo" id="columnaLogo3">
                     <!-- <li><a href="#"><img src="/imagenes/escudos/yacares.png" alt=""></a></li> -->
-                    <li><a href="http://localhost/faarg/index.php/roster-osos-polares-2019/"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/AZT.png" alt=""></a></li>
-                    <li><a href="http://localhost/faarg/index.php/roster-osos-polares-2019/"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/YAC.png" alt=""></a></li>
-                    <li><a href="http://localhost/faarg/index.php/roster-osos-polares-2019/"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/COY.png" alt=""></a></li>
+                    <li><a href="http://faarg.arlud.com/?sp_list=roster-aztecas-2020"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/AZT.png" alt=""></a></li>
+                    <li><a href="http://faarg.arlud.com/?sp_list=roster-yacares-2020"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/YAC.png" alt=""></a></li>
+                    <li><a href="http://faarg.arlud.com/?sp_list=roster-coyotes-2020"><img src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/COY.png" alt=""></a></li>
                 </ul>  
                 <ul class="columnaLogos logosInactivo" id="columnaLogo4">
                     <!-- <li><a href="#"><img src="/imagenes/escudos/corsarios.png" alt=""></a></li> -->
@@ -516,6 +516,8 @@
     var validarJabalies = textReferencia.indexOf("Jabalies");
     var validarLegionarios = textReferencia.indexOf("Legionarios");
     var validarAztecas = textReferencia.indexOf("Aztecas");
+    var validarCoyotes = textReferencia.indexOf("Coyotes");
+    var validarYacares = textReferencia.indexOf("Yacares");
     var validarEstadisticas1 = textReferencia.indexOf("Estadísticas");
     var validarEstadisticas2 = textReferencia.indexOf("Estadisticas"); 
 
@@ -544,7 +546,20 @@
         contEncabezadoRoster.style.backgroundColor = '#000';
         tituloEncabezado.innerHTML= 'Legionarios';
         logoEncabezado.src = '<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/LEG.png';
-    }else if(validarEstadisticas1 !== -1){
+    }else if(validarAztecas !== -1){
+        contEncabezadoRoster.style.backgroundColor ="#c9c87f";
+        tituloEncabezado.innerHTML = "Aztecas";
+        logoEncabezado.src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/AZT.png"
+    }else if(validarCoyotes !== -1){
+        contEncabezadoRoster.style.backgroundColor ="#edc525";
+        tituloEncabezado.innerHTML = "Coyotes";
+        logoEncabezado.src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/COY.png"
+    }else if(validarYacares !==-1){
+        contEncabezadoRoster.style.backgroundColor ="#003409";
+        tituloEncabezado.innerHTML = "Yacares";
+        logoEncabezado.src="<?php bloginfo('template_url'); ?>/imagenes/escudos/logos/YAC.png"
+    }
+    else if(validarEstadisticas1 !== -1){
         var asideRoster = document.querySelector('.asideRoster');
         asideRoster.style.display = "none";
 
